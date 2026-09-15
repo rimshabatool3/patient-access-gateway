@@ -1,0 +1,14 @@
+{
+  "name": "patient-access-gateway",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Secure patient data access gateway",
+  "type": "module",
+  "scripts": {
+    "start": "node src/server.js",
+    "test": "node --test"
+  },
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
